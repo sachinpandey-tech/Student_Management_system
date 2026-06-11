@@ -88,4 +88,15 @@ public:
 
         return "F";
     }
-}
+
+    void display() const {
+
+        cout << "\n--------------------------\n";
+        cout << "ID         : " << id << endl;
+        cout << "Name       : " << name << endl;
+        cout << "Marks      : " << marks << endl;
+        cout << "Grade      : " << getGrade() << endl;
+        cout << "Attendance : " << attendance << "%" << endl;
+        cout << "--------------------------\n";
+    }
+};
